@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./home";
-import Details from "./Details";
-import Booking from "./Booking";
-import Confirmation from "./Confirmation";
-import Login from "./Login";
+import Home from "./pages/Home";
+import Details from "./pages/Details";
+import Booking from "./pages/Booking";
+import Confirmation from "./pages/Confirmation";
+import Login from "./pages/Login";
 
 function App() {
   return (
